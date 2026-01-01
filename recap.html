@@ -1,0 +1,276 @@
+<!-- Recap 2025 – Updated Layout with Inline Comments -->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8"> <!-- Mã hóa tiếng Việt -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Responsive -->
+    <title>Man88💸🎲</title>
+    <link rel="icon" href="data:image/svg+xml,
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+    <text y='0.9em' font-size='90'>🐄</text>
+    </svg>">
+
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #fef6ff; 
+            overflow-x: hidden;
+        }
+
+        /* ===== HEADER & NAVIGATION ===== */
+        header {
+            background: #ff9acb; 
+            padding: 20px;
+            text-align: center;
+            font-family: 'Anton', sans-serif;
+            font-size: 30px;
+            color: white;
+        }
+
+        nav {
+            background: white;
+            padding: 12px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1); /* Đổ bóng nhẹ */
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #444;
+            font-weight: 600;
+            transition: 0.3s; /* Hiệu ứng hover */
+        }
+        nav a:hover {
+            color: #ff6faf;
+            transform: translateY(-3px); /* Nhô lên nhẹ */
+        }
+
+        /* ===== BIG IMAGE / VIDEO SECTION ===== */
+        .big-section {
+            position: relative; /* Để đặt content-box bên trong */
+            width: 100%;
+            height: 100vh; /* Full màn hình */
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end; /* Đẩy nội dung về bên phải */
+            padding-right: 50px;
+        }
+
+        .content-box {
+            position: absolute;
+            bottom: 40px; /* Đưa text xuống góc dưới */
+            right: 40px;
+            width: 350px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.4); /* Khung mờ mờ */
+            backdrop-filter: blur(5px); /* Làm mờ nền */
+            border-radius: 50px;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+            animation: fadeIn 1.5s ease; /* Hiệu ứng xuất hiện */
+        }
+
+        .content-box h2 {
+            font-family: 'Anton', sans-serif;
+            font-size: 36px;
+            margin: 0;
+            color: #444;
+        }
+
+        .content-box p {
+            font-size: 16px;
+            color: #333;
+        }
+
+        /* ===== GRID for IMAGE LAYOUT ===== */
+        .grid-4 { /* 4 ảnh nhỏ trên 1 hàng */
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 8px;
+            padding: 20px;
+        }
+
+        .grid-3x2, .grid-3x3 { /* Lưới 3 cột x 2 hoặc nhiều hàng */
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            padding: 20px;
+        }
+
+        /* Layout cho NGÀY 4 đặc biệt */
+        .grid-left-long {
+            display: flex;
+            padding: 20px;
+            gap: 15px;
+        }
+        .left-col { /* Cột trái với 2 ảnh dọc */
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            width: 40%; /* Chiếm 40% ngang */
+        }
+        .right-col { /* Cột phải chia 4 ô */
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            width: 60%; /* Chiếm 60% ngang */
+        }
+
+        /* Style chung cho ảnh */
+        .img-square, .img-full, video {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>💸😻Trao Niềm Tin, Nhận Tài Lộc✨🎲</header>
+
+<nav>
+        <a href="index.html">🏠</a>
+        <a href="intro.html">👤</a>
+        <a href="recap.html">👀</a>
+        <a href="mess.html">💬</a>
+</nav>
+
+<!-- ========================== NGÀY 1 ========================== -->
+<section class="big-section">
+    <video autoplay muted loop playsinline class="img-full"> <!-- Video full màn hình -->
+        <source src="video1.mp4" type="video/mp4">
+    </video>
+    <div class="content-box">
+        <h2>01/02/2025</h2>
+        <p>Hình như là lần đi xa đầu tiên, cụ thể là vào rừng💕 Có một sự trễ hẹn nhẹ và một sự thay đổi địa điểm nhẹ nữa💕</p>
+    </div>
+</section>
+
+<!-- 4 ảnh hàng đầu -->
+<div class="grid-4">
+    <img class="img-square" src="small1.jpg">
+    <img class="img-square" src="small2.jpg">
+    <img class="img-square" src="small3.jpg">
+    <img class="img-square" src="small4.jpg">
+</div>
+
+<!-- 6 ảnh nhỏ → 2 hàng x 3 ảnh -->
+<div class="grid-3x2">
+    <img class="img-square" src="small5.jpg">
+    <img class="img-square" src="small6.jpg">
+    <img class="img-square" src="small7.jpg">
+    <img class="img-square" src="small8.jpg">
+    <img class="img-square" src="small9.jpg">
+    <img class="img-square" src="small10.jpg">
+</div>
+
+<!-- ========================== NGÀY 2 ========================== -->
+<section class="big-section">
+    <video autoplay muted loop playsinline class="img-full"> <!-- Video full màn hình -->
+        <source src="video2.mp4" type="video/mp4">
+    </video>
+    <div class="content-box">
+        <h2>Feb -> Jul📸✨</h2>
+        <p>Thời còn 5...</p>
+    </div>
+</section>
+
+<!-- 3 ảnh nhỏ -->
+<div class="grid-3x2">
+    <img class="img-square" src="small11.jpg">
+    <img class="img-square" src="small12.jpg">
+    <img class="img-square" src="small13.jpg">
+    <img class="img-square" src="small14.jpg">
+    <img class="img-square" src="small15.jpg">
+    <img class="img-square" src="small16.jpg">
+    <img class="img-square" src="small17.jpg">
+    <img class="img-square" src="small18.jpg">
+    <img class="img-square" src="small19.jpg">
+</div>
+
+<!-- ========================== NGÀY 3 ========================== -->
+<section class="big-section" style="background-image: url('recap3.jpg');">
+    <div class="content-box">
+        <h2>Aug -> Sep</h2>
+        <p>Ye, chúng ta đã có dịp đi chơi xa thêm mụt lần nửa, cụ thể là xuống bỉn🌿💗Và được lôcồ pipồ dẫn đi chơi nhaaa🤳📸</p>
+    </div>
+</section>
+
+<!-- Layout mới: 2 ảnh dọc bên trái + ảnh nhỏ bên phải (tự co theo chiều cao) -->
+<div class="day3-layout" style="display: flex; gap: 20px; padding: 20px;">
+    
+    <!-- BÊN TRÁI: 2 ảnh dọc song song -->
+    <div class="day3-left" style="width: 50%; display: flex; flex-direction: row; gap: 10px;">
+        <img src="l1.jpg" style="width: 50%; height: auto; border-radius: 10px; object-fit: cover;">
+        <img src="l2.jpg" style="width: 50%; height: auto; border-radius: 10px; object-fit: cover;">
+    </div>
+
+    <!-- BÊN PHẢI: 2–3 hàng, tự chỉnh sao cho bằng chiều cao của 2 ảnh dọc -->
+    <div class="day3-right" style="width: 50%; display: grid; grid-template-columns: repeat(2,1fr); gap: 10px; align-content: stretch;">
+        <img class="img-square" src="s1.jpg">
+        <img class="img-square" src="s2.jpg">
+        <img class="img-square" src="s3.jpg">
+        <img class="img-square" src="s4.jpg">
+        <img class="img-square" src="s5.jpg">
+        <img class="img-square" src="s6.jpg">
+    </div>
+</div>
+
+<!-- giữ lại marker cũ để code không bị lỗi -->
+<div class="grid-3x2">
+    <img class="img-square" src="s7.jpg">
+    <img class="img-square" src="s8.jpg">
+    <img class="img-square" src="s9.jpg">
+</div>
+
+<!-- ========================== NGÀY 4 ========================== -->
+<section class="big-section" style="background-image: url('recap4.jpg');">
+    <div class="content-box">
+        <h2>Sep -> Oct</h2>
+        <p>Hẹn được nhiều bữa đi chơi hơn roàiiii😻😻</p>
+    </div>
+</section>
+
+<div class="grid-3x2">
+    <img class="img-square" src="s11.jpg">
+    <img class="img-square" src="s12.jpg">
+    <img class="img-square" src="s13.jpg">
+    <img class="img-square" src="s14.jpg">
+    <img class="img-square" src="s15.jpg">
+    <img class="img-square" src="s16.jpg">
+    <img class="img-square" src="s17.jpg">
+    <img class="img-square" src="s18.jpg">
+    <img class="img-square" src="s19.jpg">
+</div>
+
+<!-- ========================== NGÀY 5 ========================== -->
+<section class="big-section">
+    <video autoplay muted loop playsinline class="img-full"> <!-- Video full màn hình -->
+        <source src="video3.mp4" type="video/mp4">
+    </video>    <div class="content-box">
+        <h2>The last months of the year😍</h2>
+        <p>Chắc hiếm lắm mới học nhóm đủ 4 đứa như vại...😇được thì làm thêm mấy chuyến chốt năm luôn nha mấy fen😇</p>
+    </div>
+</section>
+
+<div class="grid-3x2">
+    <img class="img-square" src="s20.jpg">
+    <video class="img-square" autoplay muted loop playsinline>
+        <source src="video4.mp4" type="video/mp4">
+    </video>
+    <img class="img-square" src="s22.jpg">
+    <img class="img-square" src="s23.jpg">
+    <img class="img-square" src="s24.jpg">
+    <img class="img-square" src="s25.jpg">
+</div>
+</body>
+</html>

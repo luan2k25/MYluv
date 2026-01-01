@@ -1,0 +1,110 @@
+<!-- Trang Giới Thiệu: gioithieu.html -->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About blabla</title>
+    <link rel="icon" href="data:image/svg+xml,
+    <svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+    <text y='0.9em' font-size='90'>🐄</text>
+    </svg>">
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        body {margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background: #fef6ff;}
+
+        header {background: #ff9acb;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-family: 'Anton', sans-serif;
+            font-size: 30px;
+            letter-spacing: 1px;}
+
+        nav {background: white;
+            padding: 12px 20px;
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);}
+
+        nav a {text-decoration: none;
+            color: #444;
+            font-weight: 600;
+            transition: 0.3s;}
+
+        nav a:hover {color: #ff6faf;
+            transform: translateY(-3px);}
+
+        .members {max-width: 1000px;
+            margin: 40px auto;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+            padding: 0 20px;}
+        .card {background: #ffffff;
+            border-radius: 22px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+            transition: 0.3s ease-in-out;
+            border: 3px solid #ffd2e9;}
+        .card:hover {transform: scale(1.05);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.15);}
+        .card img {width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin-bottom: 5px;
+            border: 3px solid #ffb6db;}
+        .card h3 {font-family: 'Anton', sans-serif;
+            font-size: 24px;
+            color: #ff61a6;}
+        .card p {font-size: 15px;
+            color: #444;}
+
+        footer {margin-top: 40px;
+            text-align: center;
+            padding: 20px;
+            background: #333;
+            color: white;}
+    </style>
+</head>
+<body>
+    <header>Dành cho mấy đứa không nhớ sinh nhật😏😏</header>
+
+    <nav>
+        <a href="index.html">🏠</a>
+        <a href="intro.html">👤</a>
+        <a href="recap.html">👀</a>
+        <a href="mess.html">💬</a>
+    </nav>
+
+    <section class="members">
+        <div class="card">
+            <img src="thanhvien1.png" alt="Thành viên 1">
+            <h3>Trần Hoài Hà Linh</h3>
+            <p>17/09/2008</p>
+        </div>
+        <div class="card">
+            <img src="thanhvien2.jpg" alt="Thành viên 2">
+            <h3>Lý Mỹ Kỳ</h3>
+            <p>16/04/2008</p>
+        </div>
+        <div class="card">
+            <img src="thanhvien3.jpg" alt="Thành viên 3">
+            <h3>Nguyễn Tuấn Khang</h3>
+            <p>14/02/2008</p>
+        </div>
+        <div class="card">
+            <img src="thanhvien4.jpg" alt="Thành viên 4">
+            <h3>Vũ Thành Luân</h3>
+            <p>12/01/2009</p>
+        </div>
+    </section>
+</body>
+</html>
